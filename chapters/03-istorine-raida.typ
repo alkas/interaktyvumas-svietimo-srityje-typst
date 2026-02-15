@@ -4,7 +4,7 @@
 
 Interaktyvumo švietime raida neatsiejama nuo technologinių pokyčių, kurie keitė mokymo ir mokymosi procesus per pastaruosius kelis dešimtmečius. Šis skyrius apžvelgia tris esminius laikotarpius: ikiskaitmeninį, kompiuterizacijos erą ir šiuolaikinę skaitmeninę transformaciją, ypatingą dėmesį skiriant Lietuvos kontekstui.
 
-== Ikiskaitmeninis laikotarpis
+== Analoginis laikotarpis
 
 Pirmąja interaktyvumo forma švietime galima laikyti Sokratinį dialogą -- struktūrizuotą klausimų ir atsakymų metodą, kuriuo senovės graikų filosofas skatino mokinius pačius atrasti tiesas per kritinį mąstymą. Tačiau daugelį amžių dominavo priešinga paradigma: mokytojas kaip vienintelis žinių šaltinis, o mokinys -- pasyvus klausytojas. Klasikinė kreidos lenta, plačiai paplitusi nuo XIX amžiaus vidurio, leido vizualizuoti informaciją ir tam tikru mastu palaikė sąveiką, tačiau komunikacijos srautas liko iš esmės vienpusis.
 

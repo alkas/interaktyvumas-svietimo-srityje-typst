@@ -6,15 +6,15 @@
 #import "../template.typ": title-page
 
 #title-page(
-  university: "Vilniaus universitetas",
-  faculty: "Matematikos ir informatikos fakultetas",
-  department: "Programų sistemų katedra",
+  university: "SMK aukštoji mokykla",
+  faculty: "Programavimo ir multimedijos studijų programa",
+  department: "",
   title: "Interaktyvumas švietimo, ugdymo srityje",
-  work-type: "Kursinis darbas",
+  work-type: "Referatas",
   author: "Vardas Pavardė",
-  student-id: "2012345",
+  student-id: "",
   group: "IFB-1/1",
   supervisor: "Doc. dr. Jonas Jonaitis",
-  city: "Vilnius",
+  city: "Klaipėda",
   year: "2026",
 )

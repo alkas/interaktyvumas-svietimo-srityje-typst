@@ -16,7 +16,7 @@
   city: "Vilnius",
   year: "2024",
 ) = {
-  set page(margin: 2.5cm)
+  set page(margin: 2.5cm, numbering: none)
   set align(center)
   
   text(size: 14pt, weight: "bold")[
@@ -122,8 +122,11 @@
     // Tarpai tarp eilučių – 1,5 eilutės
     leading: 1.2em,
     // Pastraipų pirmosios eilutės atitraukiamos 0,7 cm
-    first-line-indent: 0.7cm,
+    first-line-indent: (amount: 0.7cm, all: true),
   )
+
+  set enum(indent: 0.7cm) // Numeruotiems sąrašams (1., 2., 3...)
+  set list(indent: 0.7cm) // Nenumeruotiems sąrašams su taškeliais
 
   // 4. Skyrių nustatymai
   set heading(numbering: "1.1.")

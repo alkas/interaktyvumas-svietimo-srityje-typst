@@ -6,13 +6,13 @@
 
 Šiame darbe nagrinėjama interaktyvumo raida švietimo srityje -- nuo ribotos prieigos prie skaitmeninių išteklių iki pilnai skaitmenizuoto ugdymo vizijos, vertinant Lietuvos situaciją tarptautiniame kontekste. Tema itin aktuali po COVID-19 pandemijos, kuri atskleidė spragas ir paskatino precedento neturinčią švietimo technologijų plėtrą visoje Europoje.
 
-Darbo tikslas -- išanalizuoti interaktyvumo raidą švietime, įvertinant technologijų, pedagoginių metodikų ir švietimo politikos sąveiką. Tyrimo objektas -- interaktyvumas kaip ugdymo proceso sudedamoji dalis, apimanti technologinius įrankius, pedagogines metodikas ir besimokančiojo sąveiką su skaitmenine aplinka. Darbe keliami šeši uždaviniai: atskleisti interaktyvumo sampratos daugiasluoksniškumą, apžvelgti istorinę raidą, išnagrinėti šiuolaikines technologijas (gamifikaciją, VR/AR, dirbtinį intelektą), įvertinti pedagogines teorijas, atlikti lyginamąją analizę ir aptarti ateities viziją. Taikomi mokslinės literatūros sisteminės analizės, lyginamosios analizės ir atvejo studijų metodai.
+Darbo tikslas -- išanalizuoti interaktyvumo raidą švietime, įvertinant technologijų, pedagoginių metodikų ir švietimo politikos sąveiką. Tyrimo objektas -- interaktyvumas kaip ugdymo proceso sudedamoji dalis, apimanti technologinius įrankius, pedagogines metodikas ir besimokančiojo sąveiką su skaitmenine aplinka. Darbe keliami šeši uždaviniai: atskleisti interaktyvumo sampratos daugiasluoksniškumą, apžvelgti istorinę raidą, išnagrinėti šiuolaikines technologijas (žaidybinimą, VR/AR, dirbtinį intelektą), įvertinti pedagogines teorijas, atlikti lyginamąją analizę ir aptarti ateities viziją. Taikomi mokslinės literatūros sisteminės analizės, lyginamosios analizės -+metodai.
 
 Tyrimas atskleidė, kad interaktyvumo raida švietime yra ne tiesinis, o laipsniškas, krizių paskatintas procesas. Lyginamoji Estijos, Suomijos, Singapūro ir Lietuvos analizė parodė, kad sėkmingus modelius vienija strateginis nuoseklumas, o ne konkrečios technologijos. Lietuva turi pranašumų -- gerą infrastruktūrą ir aukštą mokytojų DI adopciją (39 proc.), tačiau trūksta ilgalaikės strategijos ir kokybiško adaptyvaus turinio lietuvių kalba.
 
 Pagrindinė išvada: pilnas ugdymo skaitmenizavimas nėra tikslas savaime -- technologijų vertė priklauso nuo pedagoginio tikslingumo, mokytojo kompetencijos ir sisteminės strategijos. Žmogiškasis ryšys turi išlikti ugdymo centre.
 
-*Raktažodžiai:* interaktyvumas švietime, skaitmeninė transformacija, švietimo technologijos, gamifikacija, dirbtinis intelektas ugdyme.
+*Raktažodžiai:* interaktyvumas švietime, skaitmeninė transformacija, švietimo technologijos, žaidybinimas, dirbtinis intelektas ugdyme.
 
 #pagebreak()
 

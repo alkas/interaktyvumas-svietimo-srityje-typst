@@ -2,7 +2,7 @@
 // LITERATŪROS SĄRAŠAS
 // ============================================
 
-#heading(numbering: none)[Literatūros sąrašas]
+//#heading(numbering: none)[Literatūros sąrašas]
 
 #set par(first-line-indent: 0cm, hanging-indent: 1cm)
 
