@@ -2,7 +2,7 @@
 // 1 SKYRIUS - ĮVADAS
 // ============================================
 
-#import "../template.typ": cite-inline
+#import "../template.typ"
 
 #heading(level: 1, numbering: none)[ĮVADAS]
 

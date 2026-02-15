@@ -1,5 +1,5 @@
 
-#import "../template.typ": cite-inline
+#import "../template.typ": *
 
 = Interaktyvumo samprata ir teorinė prieiga
 

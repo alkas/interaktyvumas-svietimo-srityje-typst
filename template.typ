@@ -2,54 +2,6 @@
 // AKADEMINIO REFERATO ŠABLONAS
 // ============================================
 
-// Puslapio nustatymai
-#let setup-page() = {
-  set page(
-    paper: "a4",
-    margin: (left: 3cm, right: 2cm, top: 2cm, bottom: 2cm),
-    numbering: "1",
-    number-align: center,
-  )
-}
-
-// Teksto nustatymai
-#let setup-text() = {
-  set text(
-    font: "Times New Roman",
-    size: 12pt,
-    lang: "lt",
-  )
-}
-
-// Pastraipos nustatymai
-#let setup-paragraph() = {
-  set par(
-    justify: true,
-    leading: 0.65em,
-    first-line-indent: 1.25cm,
-  )
-}
-
-// Skyrių nustatymai
-#let setup-headings() = {
-  set heading(numbering: "1.1.")
-  
-  show heading.where(level: 1): it => {
-    pagebreak(weak: true)
-    v(1cm)
-    set text(size: 14pt, weight: "bold")
-    block(it)
-    v(0.5cm)
-  }
-  
-  show heading.where(level: 2): it => {
-    v(0.5cm)
-    set text(size: 12pt, weight: "bold")
-    block(it)
-    v(0.3cm)
-  }
-}
-
 // Titulinis puslapis
 #let title-page(
   university: "",
@@ -148,10 +100,72 @@
 
 // Pagrindinė funkcija - pritaiko visus nustatymus
 #let apply-template(doc) = {
-  setup-page()
-  setup-text()
-  setup-paragraph()
-  setup-headings()
+  // 1. Puslapio nustatymai
+  set page(
+    paper: "a4",
+    margin: (left: 3cm, right: 1cm, top: 2cm, bottom: 2cm),
+    numbering: "1",
+    number-align: top + center,
+  )
+  
+  // 2. Teksto nustatymai
+  set text(
+    font: "Times New Roman",
+    size: 12pt,
+    lang: "lt",
+  )
+
+  // 3. Pastraipos nustatymai
+  set par(
+    // Teksto lygiuotė – abipusė
+    justify: true,
+    // Tarpai tarp eilučių – 1,5 eilutės
+    leading: 1.2em,
+    // Pastraipų pirmosios eilutės atitraukiamos 0,7 cm
+    first-line-indent: 0.7cm,
+  )
+
+  // 4. Skyrių nustatymai
+  set heading(numbering: "1.1.")
+  show heading.where(level: 1): it => {
+    // Kiekvienas skyrius pradedamas rašyti naujame lape
+    pagebreak(weak: true)
+    // Skyriai rašomi centre
+    set align(center)
+    //v(1cm)
+    // Skyrių pavadinimai rašomi paryškintomis raidėmis, dydis 14 pt
+    set text(size: 14pt, weight: "bold")
+    // Pavadinimai rašomi didžiosiomis raidėmis
+    upper(it)
+    // Po skyriaus pavadinimo būtina palikti 12 pt intervalą
+    v(24pt, weak: true)
+  }
+  
+  // 2 Lygis (Poskyriai)
+  show heading.where(level: 2): it => {
+    // Prieš poskyrį paliekamas 24 pt tarpas
+    v(24pt, weak: true)
+    // Poskyrių pavadinimai: paryškintas, 12 pt
+    set text(size: 12pt, weight: "bold")
+    pad(left: 0.7cm)[#it]
+    // Po poskyrio pavadinimo paliekamas 12 pt intervalas
+    v(12pt, weak: true)
+  }
+
+  // 3 Lygis (Skyreliai)
+  show heading.where(level: 3): it => {
+    // Prieš skyrelį paliekamas 24 pt tarpas
+    v(24pt, weak: true)
+    // Skyreliai lygiuojami prie kairiojo krašto
+    set align(left)
+    // Paryškintas, 12 pt, pasvirasis šriftas (italic)
+    set text(size: 12pt, weight: "bold", style: "italic")
+    // Atitraukiama 0,7 cm nuo kairiojo krašto
+    pad(left: 0.7cm)[#it]
+    // Po skyrelio pavadinimo paliekamas 12 pt intervalas
+    v(12pt, weak: true)
+  }
+  
   show link: underline
   
   doc
