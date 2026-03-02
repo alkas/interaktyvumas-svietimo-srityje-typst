@@ -11,7 +11,7 @@
   department: "",
   title: "Interaktyvumas švietimo, ugdymo srityje",
   work-type: "Referatas",
-  author: "Claude Opus 4.6, Erikas Stanys",
+  author: "Erikas Stanys",
   //student-id: "",
   group: "PRM24SONL",
   //supervisor: "",

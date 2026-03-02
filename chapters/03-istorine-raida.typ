@@ -1,8 +1,17 @@
-#import "../template.typ": cite-inline
+#import "../template.typ": cite-inline, fig-center
 
 = Istorinė raida: nuo lentos iki ekrano
 
 Interaktyvumo švietime raida neatsiejama nuo technologinių pokyčių, kurie keitė mokymo ir mokymosi procesus per pastaruosius kelis dešimtmečius. Šis skyrius apžvelgia tris esminius laikotarpius: ikiskaitmeninį, kompiuterizacijos erą ir šiuolaikinę skaitmeninę transformaciją, ypatingą dėmesį skiriant Lietuvos kontekstui.
+#v(1.5em)
+
+#fig-center(
+  "images/1.1_Gemini_Generated_Image_xnoi3dxnoi3dxnoi.png",
+  width: 95%,
+  caption: [Evoliucija nuo lentos iki ekranų],
+)
+
+#v(1.5em)
 
 == Analoginis laikotarpis
 
@@ -36,7 +45,7 @@ Po pandeminis laikotarpis pasižymėjo hibridinio mokymosi modelių plėtra. Nac
 
 Žemiau pateikiama chronologinė lentelė, apibendrinanti interaktyvumo raidą švietime:
 
-#v(0.5em)
+#v(1em)
 
 #figure(
   table(
@@ -56,6 +65,6 @@ Po pandeminis laikotarpis pasižymėjo hibridinio mokymosi modelių plėtra. Nac
   caption: [Interaktyvumo raida švietime: technologijos ir sąveikos lygiai],
 )
 
-#v(0.5em)
+#v(1em)
 
 Istorinė apžvalga atskleidžia, kad interaktyvumo raida švietime nebuvo tiesinis procesas, o veikiau laipsniškas -- kartais krizių paskatintas -- perėjimas nuo vienpusio informacijos perdavimo prie daugiakryptės sąveikos, kurioje besimokantysis tampa aktyviu proceso dalyviu. Tolimesniame skyriuje nagrinėjamos konkrečios šiuolaikinės technologijos, kurios šią sąveiką daro įmanomą.

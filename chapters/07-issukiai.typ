@@ -1,4 +1,4 @@
-#import "../template.typ": cite-inline
+#import "../template.typ": cite-inline, fig-center
 
 = Iššūkiai ir skaitmeninė atskirtis
 
@@ -19,6 +19,16 @@ COVID-19 pandemija skaudžiai atskleidė visų trijų lygių atskirties mastą. 
 *Mokytojų pasirengimas ir pasipriešinimas.* OECD _Digital Education Outlook 2023_ duomenimis, maždaug 20 proc. pagrindinės mokyklos mokytojų OECD šalyse nurodo poreikį tobulintis IKT srityje, nors 60 proc. jau buvo dalyvavę skaitmeninio ugdymo mokymuose per pastaruosius metus. Ši spraga tarp formalių mokymų ir realaus pasirengimo rodo, kad problema yra ne tiek mokymų trūkumas, kiek jų kokybė ir atitikimas praktiniams poreikiams. Lietuvoje ši situacija papildomai komplikuojama kartų skirtumo: daliai vyresniosios kartos mokytojų technologijos kelia ne tik techninius, bet ir psichologinius sunkumus -- baimę suklysti prieš mokinius, kurie technologijas valdo geriau už juos. TPACK modelis (aptartas 4 skyriuje) siūlo sisteminį sprendimą, tačiau jo įgyvendinimas reikalauja nuolatinio, ne epizodinio kvalifikacijos kėlimo.
 
 *Turinio kokybė ir „pramoginio ugdymo" kritika.* Ne visa, kas skaitmeniniame formate ir kas vadinasi „interaktyvu", turi pedagoginę vertę. Terminas _edutainment_ (angl. _education_ + _entertainment_) apibūdina turinį, kuris prioritetizuoja pramogą mokymosi sąskaita -- spalvingus, garsius, bet paviršutiniškus skaitmeninus išteklius, kurie sukuria mokymosi iliuziją be realaus žinių konstrukto. Ši problema itin aktuali gamifikacijos kontekste: kaip aptarta 3 skyriuje, žaidimo elementai gali stipriai padidinti motyvaciją, tačiau tik tada, kai jie tarnauja pedagoginiam tikslui, o ne pakeičia jį.
+
+#v(1.5em)
+
+#fig-center(
+  "images/skaitmenines-atskirtys.png",
+  width: 80%,
+  caption: [Skaitmeninės atskirtys],
+)
+
+#v(1.5em)
 
 *Ekranų laikas ir mokinių sveikata.* UNESCO 2023 m. pasaulinė švietimo stebėsenos ataskaita (_Global Education Monitoring Report: Technology in Education -- A Tool on Whose Terms?_) pateikė kritinį vertinimą: mokslinių įrodymų apie skaitmeninių technologijų pridėtinę vertę švietime yra mažai, o pernelyg didelis ekranų laikas neigiamai veikia vaikų psichinę sveikatą ir emocinį stabilumą. PISA 2022 duomenys tai patvirtina konkrečiais skaičiais: trys ketvirtadaliai OECD šalių mokinių praleidžia daugiau nei valandą per darbo dieną socialiniuose tinkluose, o beveik kas trečias mokinys pripažįsta, kad skaitmeniniai įrenginiai blaško dėmesį matematikos pamokose. Mokiniai, kurių dėmesį blaško kitų naudojami įrenginiai, pasiekia reikšmingai žemesnius rezultatus -- skirtumas atitinka maždaug tris ketvirčius mokslo metų. Tačiau svarbu atkreipti dėmesį į niuansą: PISA duomenys taip pat rodo, kad saikingas skaitmeninių įrenginių naudojimas mokymosi tikslais yra susijęs su geresniais rezultatais ir didesniu priklausymo mokyklai jausmu. Problema, vadinasi, nėra pačiose technologijose, o jų naudojimo būde ir intensyvume.
 

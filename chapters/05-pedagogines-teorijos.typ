@@ -1,4 +1,4 @@
-#import "../template.typ": cite-inline
+#import "../template.typ": cite-inline, fig-center
 
 = Pedagoginės teorijos ir metodikos
 
@@ -10,7 +10,7 @@ Aktyvus mokymasis (_active learning_) -- tai ugdymo požiūris, kuriame besimoka
 
 Viena konkrečiausių aktyvaus mokymosi realizacijų yra *apverstos klasės* (_Flipped Classroom_) modelis, kurį Bergmannas ir Samsas (2012) sistemizavo ir populiarino. Šio modelio esmė -- apversti tradicinę mokymosi struktūrą: teorinę medžiagą mokiniai įsisavina savarankiškai namuose (dažniausiai per vaizdo paskaitas ar interaktyvų turinį), o klasėje laikas skiriamas aktyviai veiklai -- diskusijoms, problemų sprendimui, grupiniam darbui ir individualizuotai mokytojo pagalbai. Interaktyvios technologijos yra būtina šio modelio sąlyga: vaizdo turinio platformos (_Edpuzzle_, _YouTube_), bendradarbiavimo įrankiai (_Padlet_, _Miro_) ir momentinio grįžtamojo ryšio sistemos (_Kahoot!_, _Socrative_) leidžia apverstą klasę realizuoti praktiškai.
 
-*Probleminis mokymasis* (_Problem-Based Learning_, PBL) -- dar vienas aktyvaus mokymosi metodas, kuriame besimokantieji sprendžia autentiškas, atviras problemas, neturinčias vieno teisingo atsakymo. Interaktyvios technologijos čia atlieka dvejopą vaidmenį: pirma, jos leidžia modeliuoti realias situacijas (pvz., PhET simuliacijos fizikoje, virtualios laboratorijos chemijoje); antra, jos palengvina grupinį bendradarbiavimą ir tyrimo procesą (informacijos paieška, duomenų analizė, rezultatų vizualizavimas ir pristatymas).
+*Probleminis mokymasis* (_Problem-Based Learning_, _PBL_) -- dar vienas aktyvaus mokymosi metodas, kuriame besimokantieji sprendžia autentiškas, atviras problemas, neturinčias vieno teisingo atsakymo. Interaktyvios technologijos čia atlieka dvejopą vaidmenį: pirma, jos leidžia modeliuoti realias situacijas (pvz., PhET simuliacijos fizikoje, virtualios laboratorijos chemijoje); antra, jos palengvina grupinį bendradarbiavimą ir tyrimo procesą (informacijos paieška, duomenų analizė, rezultatų vizualizavimas ir pristatymas).
 
 *Projektinis mokymasis* sujungia ilgalaikę kūrybinę veiklą su skaitmeniniu bendradarbiavimu. Mokiniai, naudodami projektų valdymo įrankius (_Trello_, _Notion_), kūrybines platformas (_Canva_, _Google Sites_) ir programavimo aplinkas (_Scratch_, _micro:bit_), kuria realius produktus -- tinklalapius, programėles, tyrimų ataskaitas, multimedijos projektus. Tokia veikla realizuoja aukščiausią interaktyvumo lygį -- kūrybinę sąveiką, kai besimokantysis ne tik vartoja turinį, bet pats jį kuria.
 
@@ -18,11 +18,21 @@ Viena konkrečiausių aktyvaus mokymosi realizacijų yra *apverstos klasės* (_F
 
 Viena įtakingiausių teorinių sistemų, padedančių suprasti, kaip pedagogiškai prasmingai integruoti technologijas į ugdymą, yra TPACK (_Technological Pedagogical Content Knowledge_) modelis, pasiūlytas Mishros ir Koehlerio (2006). Modelis grindžiamas idėja, kad efektyviam technologijų naudojimui švietime būtina trijų žinių sričių sankirta: technologinių žinių (TK -- _Technological Knowledge_), pedagoginių žinių (PK -- _Pedagogical Knowledge_) ir dalykinio turinio žinių (CK -- _Content Knowledge_).
 
+#v(1.5em)
+
+#fig-center(
+  "images/TPACK modelis.jpg",
+  width: 80%,
+  caption: [TPACK modelis],
+)
+
+#v(1.5em)
+
 Technologinės žinios (TK) apima gebėjimą naudotis konkrečiomis technologijomis -- programine įranga, interaktyviosiomis lentomis, mokymosi platformomis, VR ausinukais. Pedagoginės žinios (PK) apima mokymosi teorijų, ugdymo metodų, vertinimo strategijų supratimą. Dalykinio turinio žinios (CK) -- tai konkretaus mokomojo dalyko faktai, sąvokos, principai ir procedūros. Kiekviena iš šių sričių turi vertę atskirai, tačiau tikroji pedagoginė inovacija gimsta jų sankirtose: pedagoginės-turinio žinios (PCK) -- gebėjimas pritaikyti mokymo metodus konkrečiam turiniui; technologinės-turinio žinios (TCK) -- supratimas, kaip technologijos gali reprezentuoti dalykinį turinį; technologinės-pedagoginės žinios (TPK) -- gebėjimas naudoti technologijas kaip mokymosi įrankius. TPACK -- centrinė visų trijų sričių sankirta -- yra gebėjimas tinkamai pasirinkti ir integruoti technologiją konkrečiam pedagoginiam tikslui konkrečiame dalykiniame kontekste (Mishra ir Koehler, 2006).
 
 TPACK modelis yra ypač aktualus šiuolaikiniame Lietuvos švietimo kontekste, nes jis padeda formuluoti esminį principą: technologija ugdyme turi tarnauti pedagoginiam tikslui, o ne būti naudojama dėl paties technologijos naujumo. Pavyzdžiui, mokytojas, turintis stiprias TPACK kompetencijas, nesirinks VR ausinukų vien todėl, kad jie yra modernus įrankis, bet pasirinks juos tik tada, kai imersyvi patirtis bus efektyvesnė už alternatyvius metodus -- pavyzdžiui, anatomijos pamokoje, kurioje trimatė erdvinė orientacija yra kritiškai svarbi.
 
-Lietuvos mokytojų skaitmeninės kompetencijos ugdymas vykdomas remiantis Europos pedagogų skaitmeninių kompetencijų sistema _DigCompEdu_, kuri apibrėžia šešias kompetencijų sritis: profesinį įsitraukimą, skaitmeninių išteklių kūrimą ir naudojimą, mokymąsi ir mokymą skaitmeninėje aplinkoje, vertinimą, besimokančiųjų įgalinimą ir besimokančiųjų skaitmeninės kompetencijos ugdymą. Nuo 2023 metų atnaujintose Bendrosiose programose skaitmeninė kompetencija įtraukta kaip viena iš septynių ugdomų kompetencijų -- greta komunikavimo, kultūrinės, kūrybiškumo, pažinimo, pilietiškumo bei socialinės-emocinės ir sveikos gyvensenos kompetencijų. Tai signalizuoja sisteminį požiūrio pokytį: skaitmeninė kompetencija nebėra atskirtas informatikos dalykas, bet integruota tarpdalykinė kompetencija, ugdoma visų dalykų pamokose. Nacionalinės kvalifikacijos tobulinimo programos, finansuojamos ES „NextGenerationEU" lėšomis pagal pažangos priemonę „Pirmiausia -- mokytojas", apima plačias skaitmeninių kompetencijų tobulinimo veiklas, grindžiamas DigComp 2.2 ir DigCompEdu gairėmis.
+Lietuvos mokytojų skaitmeninės kompetencijos ugdymas vykdomas remiantis Europos pedagogų skaitmeninių kompetencijų sistema _DigCompEdu_, kuri apibrėžia šešias kompetencijų sritis: profesinį įsitraukimą, skaitmeninių išteklių kūrimą ir naudojimą, mokymąsi ir mokymą skaitmeninėje aplinkoje, vertinimą, besimokančiųjų įgalinimą ir besimokančiųjų skaitmeninės kompetencijos ugdymą. Nuo 2023 metų atnaujintose Bendrosiose programose skaitmeninė kompetencija įtraukta kaip viena iš septynių ugdomų kompetencijų -- greta komunikavimo, kultūrinės, kūrybiškumo, pažinimo, pilietiškumo bei socialinės-emocinės ir sveikos gyvensenos kompetencijų. Tai signalizuoja sisteminį požiūrio pokytį: skaitmeninė kompetencija nebėra atskirtas informatikos dalykas, bet integruota tarpdalykinė kompetencija, ugdoma visų dalykų pamokose. Nacionalinės kvalifikacijos tobulinimo programos, finansuojamos ES "NextGenerationEU" lėšomis pagal pažangos priemonę "Pirmiausia -- mokytojas", apima plačias skaitmeninių kompetencijų tobulinimo veiklas, grindžiamas DigComp 2.2 ir DigCompEdu gairėmis.
 
 Vis dėlto praktikoje TPACK kompetencijų lygis tarp Lietuvos mokytojų išlieka netolygus. Dalis mokytojų technologijas naudoja pažengusiu lygiu -- kuria interaktyvų skaitmeninį turinį, taiko adaptyvias platformas, integruoja gamifikaciją. Tačiau nemaža dalis apsiriboja baziniu lygiu: naudoja technologijas kaip skaitmenines tradicinius įrankių pakaitalus (pvz., projektuoja skaidres vietoj rašymo lentoje), neišnaudodami interaktyvumo potencialo. Ši spraga tarp technologinio prieinamumo ir pedagoginio tikslingumas yra vienas svarbiausių Lietuvos skaitmeninio švietimo iššūkių.
 

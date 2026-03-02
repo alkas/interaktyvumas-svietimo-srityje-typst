@@ -98,6 +98,175 @@
   ]
 }
 
+// ============================================
+// ILIUSTRACIJŲ VALDYMO FUNKCIJOS
+// ============================================
+
+// 1. STANDARTINIS CENTRUOTAS PAVEIKSLĖLIS
+#let fig-center(
+  image-path,
+  width: 80%,
+  caption: none,
+  label: none,
+) = {
+  figure(
+    image(image-path, width: width),
+    caption: caption,
+  )
+  if label != none {
+    label
+  }
+}
+
+// 2. PAVEIKSLĖLIS SU TEKSTO APVEDIMU DEŠINĖJE
+#let fig-wrap-right(
+  image-path,
+  width: 40%,
+  caption: none,
+  gap: 1em,
+  body,
+) = {
+  // Sukuriame grid su paveikslėliu dešinėje
+  grid(
+    columns: (1fr, width),
+    column-gutter: gap,
+    align: (left, center),
+    
+    // Tekstas kairėje
+    body,
+    
+    // Paveikslėlis dešinėje
+    align(center + horizon)[
+      #figure(
+        image(image-path, width: 100%),
+        caption: caption,
+      )
+    ]
+  )
+}
+
+// 3. PAVEIKSLĖLIS SU TEKSTO APVEDIMU KAIRĖJE
+#let fig-wrap-left(
+  image-path,
+  width: 40%,
+  caption: none,
+  gap: 1em,
+  body,
+) = {
+  grid(
+    columns: (width, 1fr),
+    column-gutter: gap,
+    align: (center, left),
+    
+    // Paveikslėlis kairėje
+    align(center + horizon)[
+      #figure(
+        image(image-path, width: 100%),
+        caption: caption,
+      )
+    ],
+    
+    // Tekstas dešinėje
+    body,
+  )
+}
+
+// 4. MAŽAS PAVEIKSLĖLIS PARAŠTĖJE (MARGIN NOTE)
+#let fig-margin(
+  image-path,
+  caption: none,
+  side: right, // arba left
+) = {
+  place(
+    side + horizon,
+    dx: if side == right { 2.2cm } else { -2.2cm },
+    float: true,
+    figure(
+      image(image-path, width: 1.8cm),
+      caption: caption,
+    )
+  )
+}
+
+// 5. DU PAVEIKSLĖLIAI GRETA (HORIZONTALIAI)
+#let fig-side-by-side(
+  image1,
+  image2,
+  caption1: none,
+  caption2: none,
+  width: 45%,
+  gap: 1em,
+) = {
+  grid(
+    columns: (1fr, 1fr),
+    column-gutter: gap,
+    
+    figure(
+      image(image1, width: 100%),
+      caption: caption1,
+    ),
+    
+    figure(
+      image(image2, width: 100%),
+      caption: caption2,
+    ),
+  )
+}
+
+// 6. PAVEIKSLĖLIŲ TINKLELIS (GRID)
+#let fig-grid(
+  images, // array of image paths
+  captions: (), // array of captions
+  columns: 2,
+  width: 100%,
+  gap: 0.8em,
+) = {
+  grid(
+    columns: (1fr,) * columns,
+    column-gutter: gap,
+    row-gutter: gap,
+    
+    ..images.enumerate().map(((i, img)) => {
+      figure(
+        image(img, width: width),
+        caption: if captions.len() > i { captions.at(i) } else { none },
+      )
+    })
+  )
+}
+
+// 7. PAVEIKSLĖLIS SU ŠALTINIU/PASTABA
+#let fig-with-note(
+  image-path,
+  width: 80%,
+  caption: none,
+  note: none,
+) = {
+  figure(
+    {
+      image(image-path, width: width)
+      if note != none {
+        v(0.3em)
+        text(size: 10pt, style: "italic")[
+          #note
+        ]
+      }
+    },
+    caption: caption,
+  )
+}
+
+// 8. PLATUS PAVEIKSLĖLIS (per visą puslapį)
+#let fig-fullwidth(
+  image-path,
+  caption: none,
+) = {
+  figure(
+    image(image-path, width: 100%),
+    caption: caption,
+  )
+}
+
 // Pagrindinė funkcija - pritaiko visus nustatymus
 #let apply-template(doc) = {
   // 1. Puslapio nustatymai

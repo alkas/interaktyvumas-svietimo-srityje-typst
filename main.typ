@@ -22,18 +22,18 @@
 #pagebreak()
 
 // Paveikslėlių sąrašas (jei reikia)
-#outline(
-  title: "Paveikslėlių sąrašas",
-  target: figure.where(kind: image),
-)
-#pagebreak()
+//#outline(
+//  title: "Paveikslėlių sąrašas",
+//  target: figure.where(kind: image),
+//)
+//#pagebreak()
 
 // Lentelių sąrašas (jei reikia)
-#outline(
-  title: "Lentelių sąrašas",
-  target: figure.where(kind: table),
-)
-#pagebreak()
+//#outline(
+//  title: "Lentelių sąrašas",
+//  target: figure.where(kind: table),
+//)
+//#pagebreak()
 
 #include "front-matter/abstract.typ"
 
